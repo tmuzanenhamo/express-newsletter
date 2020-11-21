@@ -1,0 +1,19 @@
+{
+  "name": "news-letter",
+  "version": "1.0.0",
+  "description": "\"This is a minimalist express app to subscribe to my news letter, trying mailchip integration with express\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
