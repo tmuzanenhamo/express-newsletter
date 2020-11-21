@@ -30,6 +30,10 @@ app.post("/", (req, res) => {
       {
         email_address: email,
         status: "subscribed",
+        merge_fields: {
+            FNAME: fname,
+            LNAME: lname
+        }
       },
     ],
   };
